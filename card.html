@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="card.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <img src="figma/logo.png" alt="лого" width="200px">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="index.html">Главная</a></li>
+                <li class="nav__item dropdown"><a class="nav__link" href="#">Каталог</a>
+                    <ul class="dropdown__list">
+                        <li class="dropdown__item"><a class="dropdown__link" href="catalog.html">Мышки</a></li>
+                        <li class="dropdown__item"><a class="dropdown__link" href="#">Наушники</a></li>
+                        <li class="dropdown__item"><a class="dropdown__link" href="#">Клавиатуры</a></li>
+                        <li class="dropdown__item"><a class="dropdown__link" href="#">Веб-камеры</a></li>
+                    </ul>
+                </li>
+                <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">О нас</a></li>
+                <li class="nav__item number">+7 952 812 52 42</li>
+                <li class="nav__item stick">|</li>
+                <li class="nav__item"><img class="nav__img" src="figma/Аккаунт.png" alt="аккаунт" width="40px"></li>
+                <li class="nav__item"><img class="nav__img1" src="figma/корзина2.png" alt="Корзина" width="50px"></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product">
+            <h2 class="title">Игровая мышь G102</h2> 
+            <div class="product-card">  
+                <img src="figma/Главная мышка.webp" alt="Мышь"  class="product-card__image1">  
+            </div>
+            <p class="product-card__name">*предмет со скидкой</p> 
+        </section>
+
+        <section class="product-card__info">
+
+              <p class="product-card__discount-price">3200₽</p>
+              <p class="product-card__discount-info"> *С действием скидки</p>
+
+            <section class="product-card__specs">
+                <h2 class="product-card__specs-title">Характеристики</h2>
+                <p class="product-card__specs-item">Тип подключения мыши:.........проводное</p>
+                <p class="product-card__specs-item">Количество кнопок(мышь):....13шт </p>
+                <p class="product-card__specs-item">Гарантия:...................1 год</p>
+               <p class="product-card__specs-item">Страна:.....................Китай</p>
+            </section>
+            <hr class="line">
+            <section class="product-card__actions">
+                <a href="#" class="product-card__button">Купить сейчас</a>
+                <img class="product-card__img" src="figma/корзина2.png" alt="Корзина" width="50px">
+                 <i class="fa-solid fa-cart-shopping product-card__cart-icon"></i>
+            </section>
+        </section>
+
+        <section class="product-description">
+            <h2 class="product-description__title">О товаре</h2>
+             <p class="product-description__text">Игровая мышь Logitech G502 X в пластиковом корпусе, окрашенном в белый цвет. <br>
+                 Устойчивость придают ножки, изготовленные из тефлона. Модель подключают к <br>
+                 компьютеру, монитору или смарт-телевизору при помощи кабеля. Интерфейс связи — <br>
+                 USB Type-A. Устройство отличается эргономичной формой, удобно лежит в ладони и <br>
+                 оснащено 13 настраиваемыми под наиболее часто решаемые задачи кнопками. <br>
+                 Максимальное допустимое ускорение — 40 g. Вес — 89 г.</p>
+        </section>
+
+        <h2 class="page-title">С этим товаром покупают</h2>
+    <section class="product-list">
+
+        <article class="product-item">
+            <img src="figma/клава.webp" alt="Клавиатура" class="product-item__image1">
+            <p class="product-item__title1">Профессиональная клавиатура для профессионального гейминга</p>
+            <p class="product-item__rating">
+                <span class="product-item__rating-star">★</span>
+                <span class="rating">4.6 (12 отзывов)</span>
+            </p>
+            <p class="product-item__price">5900₽<button class="product-item__images">
+                <img src="figma/корзина2.png" alt="" width="40px"></button>
+            </p>
+        </article>
+
+        <section class="product2">
+            <article class="product-item">
+            <img src="figma/наушники.jpg" alt="Игровые наушники" class="product-item__image2">
+            <p class="product-item__title">G735 игровые наушники</p>
+            <p class="product-item__rating">
+                <span class="product-item__rating-star">★</span>
+                <span class="rating">4.9 (53 отзыва)</span>
+            </p>
+
+            <p class="product-item__price">8000₽<button class="product-item__images">
+                <img src="figma/корзина2.png" alt="" width="40px"></button>
+            </p>
+        </article>
+        </section>
+        
+        <section class="product2">
+            <article class="product-item">
+            <img src="figma/вебка.webp" alt="Веб-камера" class="product-item__image3">
+            <p class="product-item__title">Брио 500 веб камера для стримов</p>
+            <p class="product-item__rating">
+                <span class="product-item__rating-star">★</span>
+                <span class="rating">4.4 (23 отзыва)</span>
+            </p>
+
+            <p class="product-item__price">3499₽<button class="product-item__images">
+                <img src="figma/корзина2.png" alt="" width="40px"></button>
+            </p>
+            
+        </article>
+        </section>
+    </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container">
+            <!-- Контактная информация -->
+            <section class="footer__section footer__contacts">
+                <h3 class="footer__title">Контактная информация</h3>
+                <p class="footer__text">Адрес: г. Москва, ул. Примерная, д. 1</p>
+                <p class="footer__text">Телефон: +7 952 812 52 42</p>
+                <p class="footer__text">Email: info@example.com</p>
+            </section>
+            <!-- Ссылки -->
+            <section class="footer__section footer__links">
+                <h3 class="footer__title">Ссылки</h3>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#" class="footer__link">О компании</a></li> <br>
+                    <li class="footer__item"><a href="#" class="footer__link">Услуги</a></li> <br>
+                    <li class="footer__item"><a href="#" class="footer__link">Часто задаваемые вопросы</a></li> <br>
+                    <li class="footer__item"><a href="#" class="footer__link">Политика конфиденциальности</a></li> <br>
+                </ul>
+            </section>
+            <!-- Социальные сети -->
+            <section class="footer__section footer__social">
+                <h3 class="footer__title">Мы в социальных сетях</h3>
+                <div class="footer__icons">
+                    <a href="https://t.me/telegram" class="footer__icon">
+                        <img src="figma/тг.webp" alt="Telegram">
+                    </a>
+                    <a href="https://vk.com" class="footer__icon">
+                        <img src="figma/вк.png" alt="VK">
+                    </a>
+                    <a href="https://ok.ru/" class="footer__icon">
+                        <img src="figma/одноклассники.webp" alt="Одноклассники">
+                    </a>
+                </div>
+            </section>
+        </section>
+        <!-- Копирайт -->
+        <p class="footer__copyright">
+            &copy; 2024 Название компании. Все права защищены.
+        </p>
+    </footer>
+</body>
+</html>

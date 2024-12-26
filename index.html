@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alice&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+  
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <img src="figma/logo.png" alt="лого" width="200px">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="index.html">Главная</a></li>
+                <li class="nav__item dropdown"><a class="nav__link" href="#">Каталог</a>
+                    <ul class="dropdown__list">
+                        <li class="dropdown__item"><a class="dropdown__link" href="catalog.html">Мышки</a></li>
+                        <li class="dropdown__item"><a class="dropdown__link" href="#">Наушники</a></li>
+                        <li class="dropdown__item"><a class="dropdown__link" href="#">Клавиатуры</a></li>
+                        <li class="dropdown__item"><a class="dropdown__link" href="#">Веб-камеры</a></li>
+                    </ul>
+                </li>
+                <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">О нас</a></li>
+                <li class="nav__item number">+7 952 812 52 42</li>
+                <li class="nav__item stick">|</li>
+                <li class="nav__item"><img class="nav__img" src="figma/Аккаунт.png" alt="аккаунт" width="40px"></li>
+                <li class="nav__item"><img class="nav__img1" src="figma/корзина2.png" alt="Корзина" width="50px"></li>
+            </ul>
+        </nav>
+    </header>
+
+        <main>
+    <section class="hero">
+        <h1>Попробуйте...</h1>
+        <p class="hero__text">Погрузитесь в мир комфорта и производительности с <br> нашей периферией!</p>
+    </section>
+
+    <section class="promo-container">  
+        <h1 class="promo-container__title">Скидка до 30%</h1>  
+        <p class="promo-container__text">По специальному промокоду: <span class="promo-code">zima2025</span></p> 
+    </section> 
+    
+        <section class="product-container">  
+
+        <a href="card.html">
+            <article class="product-card">  
+                <img src="figma/Главная мышка.webp" alt="Мышь"  class="product-card__image1">  
+                <p class="product-card__name">Мыши</p> 
+            </article>  
+        </a> 
+
+            <article class="product-card">  
+                <img src="figma/уши.webp" alt="Наушники"  class="product-card__image2">  
+                <p class="product-card__name">Наушники</p>  
+            </article>  
+
+            <article class="product-card">  
+                <img src="figma/Главная клава.png" alt="Клавиатуры" class="product-card__image3">  
+                <p class="product-card__name">Клавиатуры</p>  
+            </article> 
+
+        </section>  
+</section>
+
+        <section class="comfort">
+            <article class="comfort__content">
+                <h1 class="comfort__title">Ваш комфорт — наша забота!</h1>
+                <p class="comfort__description">
+                    Покупайте лучшие дополнения для своего компьютера
+                </p>
+                <a href="#" class="comfort__button">Узнать больше</a>
+            </article>  
+            
+            <div class="comfort__image">
+                <img class="comfort__img1" src="figma/ФОН.png" alt="фон" width="100px">
+                <img src="figma/вебка.webp" alt="Розовая веб-камера" class="comfort__img">
+            </div>
+        </section>
+
+
+        <section class="feedback">  
+    <h2 class="feedback__title">Сомневаетесь в надёжности...</h2>  
+    <p class="feedback__subtitle">Прочитайте отзывы от наших покупателей</p>  
+</section>  
+  
+<section class="reviews">
+    <img class="reviews__background" src="figma/фон отзывы.jpg" alt="Фон">
+
+    <article class="reviews__content">
+            <img src="figma/Человек.webp" alt="Аватар" class="reviews__image">
+            <p class="reviews__description">
+                *Недавно купил игровую клавиатуру и мышь у этой компании. <br>
+                 Очень понравился широкий ассортимент и удобный сайт. Заказ <br>
+                 получил быстро, качество продукции отличное — все работает <br>
+                 без проблем. Также порадовала вежливая служба поддержки, <br>
+                 которая помогла с вопросом. Рекомендую эту компанию всем, кто <br>
+                 ищет качественную компьютерную периферию!*
+            </p>
+    </article>
+</section>
+</main>
+
+<footer class="footer">
+    <section class="footer__container">
+        <!-- Контактная информация -->
+        <section class="footer__section footer__contacts">
+            <h3 class="footer__title">Контактная информация</h3>
+            <p class="footer__text">Адрес: г. Москва, ул. Примерная, д. 1</p>
+            <p class="footer__text">Телефон: +7 952 812 52 42</p>
+            <p class="footer__text">Email: info@example.com</p>
+        </section>
+        <!-- Ссылки -->
+        <section class="footer__section footer__links">
+            <h3 class="footer__title">Ссылки</h3>
+            <ul class="footer__list">
+                <li class="footer__item"><a href="#" class="footer__link">О компании</a></li> <br>
+                <li class="footer__item"><a href="#" class="footer__link">Услуги</a></li> <br>
+                <li class="footer__item"><a href="#" class="footer__link">Часто задаваемые вопросы</a></li> <br>
+                <li class="footer__item"><a href="#" class="footer__link">Политика конфиденциальности</a></li> <br>
+            </ul>
+        </section>
+        <!-- Социальные сети -->
+        <section class="footer__section footer__social">
+            <h3 class="footer__title">Мы в социальных сетях</h3>
+            <div class="footer__icons">
+                <a href="https://t.me/telegram" class="footer__icon">
+                    <img src="figma/тг.webp" alt="Telegram">
+                </a>
+                <a href="https://vk.com" class="footer__icon">
+                    <img src="figma/вк.png" alt="VK">
+                </a>
+                <a href="https://ok.ru/" class="footer__icon">
+                    <img src="figma/одноклассники.webp" alt="Одноклассники">
+                </a>
+            </div>
+        </section>
+    </section>
+    <!-- Копирайт -->
+    <p class="footer__copyright">
+        &copy; 2024 Название компании. Все права защищены.
+    </p>
+</footer>
+
+       
+</body>
+</html>
